@@ -7,7 +7,7 @@ nav {
     /* position: fixed; */
     width: 100%;
     display: block;
-    height: 75px;
+    height: 60px;
     background-color: #000;
 }
 
@@ -25,27 +25,80 @@ nav {
 }
 
 .menu li{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
+/* Styles for promo*/
 
 .promo {
-    display: relative;
-    min-height: 600px;
-    background:url(../img/logo2.jpg) center center / cover no-repeat;
+    position: relative;
+    min-height: 550px;
+    background:url(../img/promo/back.jpg) center center / cover no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
-    font-family: "RussoOne";  
-    src: url("../fonts/RussoOne-Regular.ttf") format("truetype"); 
     /* -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     filter: blur(5px); */
 }
 
-.promo .promo_header{
-    color: white;
+.promo::before {
+    background:black;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.promo .container {
+    position: relative;
+}
+
+.promo .promo_header {
+    box-sizing: content-box;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
-    font-family: "RussoOne";  
-    src: url("../fonts/RussoOne-Regular.ttf") format("truetype"); 
+    font-size: 60px;
+    font-weight: 700;
+    font-family: RussoOne, sans-serif; 
+    margin-bottom: 20px;
+}
+
+.promo_header span{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.promo .col-md-12 div{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 80px;
+    background-color: rgb(150, 0, 0);
+}
+
+.promo p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color:white;
+}
+
+.promo button{
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(234, 64, 47);
+    border-radius: 4px; 
+    font-size: 20px; 
+    font-family: Roboto, sans-serif; 
+    color: rgb(255, 255, 255); 
+    border-color: transparent;
 }
