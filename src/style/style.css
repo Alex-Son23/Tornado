@@ -102,3 +102,39 @@ nav {
     color: rgb(255, 255, 255); 
     border-color: transparent;
 }
+
+.about {
+    position: relative;
+    padding-top: 70px;
+    text-align: left;
+}
+
+.about .about_header {
+    margin-right: 6px;
+    font-family: RussoOne, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 42px
+}
+
+.about_img {
+    width:100%;
+}
+
+/* .about .delimiter {
+    line-height:1.4;
+    font-weight: 900;
+    color:#FF0000;
+    font-family: RussoOne;
+    font-size: 40px;
+    width: 10px;
+    height: 4px;
+} */
+
+.about p{
+    margin-top: 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+}
