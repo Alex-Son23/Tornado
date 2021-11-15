@@ -11,16 +11,17 @@
 
 
 
-    <!-- навигационная панель к сайту -->
+    <!-- навигационная панель к сайту 
+    navigation-->
     <header>
         <nav>
             <div class="container">
                 <ul class="menu">
                     <li><a href="#" >Главная</a></li>
-                    <li><a href="#" >О клубе</a></li>
-                    <li><a href="#" >Тренера</a></li>
-                    <li><a href="#" >График</a></li>
-                    <li><a href="#" >Записаться</a></li>
+                    <li><a href="#about" >О клубе</a></li>
+                    <li><a href="#coaches" >Тренера</a></li>
+                    <li><a href="#directions" >Направления</a></li>
+                    <li><a href="#form" >Записаться</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,7 +29,8 @@
 
 
 
-    <!-- секция промо  -->
+    <!-- секция промо  
+    section promo-->
     <section class="promo">
         <div class="container">
             <div class="row">
@@ -46,7 +48,10 @@
         </div>
     </section>
 
-    <section class="about">
+
+    <!-- секция о клубе
+    section about club -->
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -74,8 +79,9 @@
 
 
 
-    <!-- секция с тренерами -->
-    <section class="coaches">
+    <!-- секция с тренерами 
+    section coaches-->
+    <section class="coaches" id="coaches">
         <div class="container">
             <h2 class="coaches_header">ТРЕНЕРЫ</h2>
             <h3 class="coaches_subheader">Наш тренерский состав включает в себя лучших спортсменов Крыма</h3>
@@ -105,7 +111,8 @@
 
 
 
-    <!-- секция причин начать заниматься -->
+    <!-- секция причин начать заниматься 
+    section why-->
     <section class="why">
         <h2 class="why_header">ТЕБЕ К НАМ, ЕСЛИ </h2>
         <h3>Ты хочешь узнать, какими возможностями и ресурсами ты обладаешь</h3>
@@ -166,15 +173,16 @@
 
 
 
-    <!-- секция направлений, в которых могут выступать спортсмены -->
-    <section class="directions">
+    <!-- секция направлений, в которых могут выступать спортсмены 
+    section directions-->
+    <section class="directions" id="directions">
 
             <h2 class="directions_header">
                 направления
             </h2>
 
             <h3 class="directions_subheader">
-                Боевые дисциплины в которхы учавствуют наши спортсмены 
+                Боевые дисциплины в которых учавствуют наши спортсмены 
             </h3>
 
         <div class="container"> 
@@ -280,43 +288,85 @@
 
 
 
-    <!-- секция с отправкой формы на почту клуба  -->
-    <section class="form">
+    <!-- секция с отправкой формы на почту клуба  
+    section form-->
+    <section class="form" id="form">
 
-        <h2 class="form_header">Запишитесь к нам на пробную тренеровку!</h2>
-
-        <div class="container">
-
-            <div class="row">
-                
-                <div>
-                    <form action="#" method="get"  class="form_attr">
-
-                        <div class="form_str">
-                            <input type="text" tabindex="1" name="name" placeholder="Как вас зовут">
-                        </div>
-
-                        <div class="form_str">
-                            <input type="text" tabindex="2" name="email" placeholder="Электронная почта">
-                        </div>
+        
+        <div class="row">
+            
+            
+            <div class="form_block">
+                <h2 class="form_header">Запишитесь к нам на пробную тренеровку!</h2>
+                <h3 class="form_subheader">первое занятие бесплатное</h3>
+        
+                <div class="container">
+        
                         
-                        <div class="form_str">
-                            <input type="tel" tabindex="3" name="number" placeholder="Номер телефона" max="12">
+                        <!-- styles for form -->
+                        <div>
+                            <form action="#" method="get"  class="form_attr">
+        
+                                <div class="form_str">
+                                    <input type="text" tabindex="1" name="name" placeholder="Как вас зовут">
+                                </div>
+        
+                                <div class="form_str">
+                                    <input type="text" tabindex="2" name="email" placeholder="Электронная почта">
+                                </div>
+                                
+                                <div class="form_str">
+                                    <input type="tel" tabindex="3" name="number" placeholder="Номер телефона" max="12">
+                                </div>
+        
+                                <div class="form_str">
+                                    <input type="submit" tabindex="4" class="form_but" value="Записаться сейчас ">
+                                </div>
+                                
+                            </form>
                         </div>
-
-                        <div class="form_str">
-                            <input type="submit" tabindex="4">
+        
+                        <div class="form_ps">
+                            <span>Нажимая на кнопку "Записаться сейчас", вы принимаете <a href="http://tnk.uszn52.ru/index.php/about-org-len/npa-org/statement/item/49-statement-personal-data">положение</a> 
+                                и <a href="https://vc.ru/legal/133217-soglasie-na-obrabotku-personalnyh-dannyh-blank-2020-goda#:~:text=%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%E2%80%93%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%80%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85,%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BE%20%D1%81%D0%B5%D0%B1%D0%B5.">согласие</a> на обработку персональных данных.</span>
                         </div>
-                        
-                    </form>
+        
+                    <!-- </div> -->
+        
                 </div>
-
-
             </div>
+
 
         </div>
 
     </section>
+
+
+    <!-- секция с картой 
+    section map -->
+    <section class="map">
+        <div class="map_block">
+
+            <div class="map_text">
+                <h2 class="map_text_header">МЫ НА КАРТЕ</h2>
+                <h3 class="map_text_subheader">Крупнейший клуб боевых искусств в Крыму</h3>
+                <p>+7(978)111-70-72</p>
+                <p>г. Симферополь, ул. Турецкая, 15 и ул. Героев Сталинграда, 10.</p>
+            </div>
+    
+            <div class="map_rmap">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0c238aff2c10b9c71a813864b2ad65e7ac4d163315c92c0a05a8955bcbaac21b&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+
+        </div>
+        
+        
+        
+    </section>
+
+
+
+    
 
 </body>
 </html>
